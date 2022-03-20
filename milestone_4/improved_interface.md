@@ -17,3 +17,7 @@ Here are a few things we did to improve our interface and the functionality of o
 - We let the users to enter search queries for multiple entities in one go
 
     - To implement the above, we used 'add' and 'remove' button on our interface which allows the user to add and entity search or remove one
+    
+4) Used Pagination to display the search results table, where the user can select the number of documents he wants to display at a time.
+
+5) We also give users a "Search" option to further filter results based on keywords from the search results, not just the entity text, but the document text.
