@@ -22,6 +22,11 @@ Total number of missed entities: 346
 Our final agreement precision: 0.99
 Our final agreement recall: 0.944
 Our final agreement f1-score: 0.966
+
+S score : 0.95
+pi score : 0.94
+K score : 0.94
+Alpha score : 0.94
 ```
 
 ## Usage
