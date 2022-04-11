@@ -30,7 +30,5 @@
 
 1. Download `group_3_img.tar` .
 2. Load the docker image using this command: `docker load < group_3_img.tar`
-3. Run command `docker run -p 9999:9999 group_3_img`
-4. Go to `localhost:9999` using your browser (Chrome recommended). 
-
-**NOTE** If you are using Windows, please use `cmd.exe` or `powershell.exe` to load the docker image file. Docker does not support any other third-party terminal such as git bash. (source: [link](https://github.com/rprichard/winpty/issues/166)) 
+3. Run command `docker run -d --name group_3_img -p 9999:9999 group_3_img`
+4. Go to `localhost:9999` using your browser (Chrome recommended).
