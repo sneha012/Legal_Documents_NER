@@ -306,12 +306,12 @@ def put_in_table(doc_dict):
     """
     return f"""
             <br>
-            <table class="table table-hover table-striped">
+            <table class="table table-hover table-striped" id="mytable">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Matched Documents</th>
-                        <th scope="col">Judgement Link</th>
+                        <th scope="col" data-field="id">#</th>
+                        <th scope="col" data-field="text">Matched Documents</th>
+                        <th scope="col" data-field="url">Judgement Link</th>
                     </tr>
                 </thead>
                 <tbody>
